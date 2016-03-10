@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.layout {
+    background: no-repeat white 50% 50% url("images/background.jpg");
+
+    /* Vertical align for buttons */
+    display: table;
+    width: 100%;
+}
+
+.layout__button-wrap {
+    position: relative;
+
+    /* Vertical align for buttons */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.layout__button-1 {
+    background: -358px -148px url("images/button-1-sprite.png");
+    display: block;
+    outline: none;
+    width: 516px;
+    height: 148px;
+
+    /* Horizontal align for button */
+    position: absolute;
+    left: 50%;
+    margin-left: -445px;
+    margin-top: -192px;
+}
+
+.layout__button-1:hover {
+    background-position: -358px -296px;
+}
+
+.layout__button-1:active {
+    background-position: -358px -444px;
+}
+
+.layout__button-2 {
+    background: -358px -148px url("images/button-2-sprite.png");
+    display: block;
+    outline: none;
+    width: 516px;
+    height: 148px;
+
+    /* Horizontal align for button */
+    position: absolute;
+    left: 50%;
+    margin-left: -445px;
+    margin-top: -20px;
+}
+
+.layout__button-2:hover {
+    background-position: -358px -294px;
+}
+
+.layout__button-2:active {
+    background-position: -358px -446px;
+}
